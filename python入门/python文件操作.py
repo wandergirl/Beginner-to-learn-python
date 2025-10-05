@@ -1,13 +1,13 @@
 
 """
         文件的读取
-        在python中，使用open函数可以打开一个已经存在的文件，或者创建一个新文件 语法为：
-        open(name,mode,encoding)
+        在python中，使用open函数可以打开一个已经存在的文件，或者创建一个新文件 语法为：open(name,mode,encoding)
         name: 是要打开的目标文件名的字符串（可以包含文件所在的具体路径)。
         mode: 设置打开文件的模式(访问模式)：只读、写入、追加等
         encoding: 编码格式（推荐使用UTF-8）
+        注：文件在r模式下如果文件不存在则不会创建新文件,程序会报出BUG
 """
-
+import time
 f = open("C:/Users/AL1S8/Desktop/python文档.txt",'r',encoding= 'utf-8')
 print(type(f))
 # print(f.read())
@@ -15,13 +15,14 @@ print(type(f))
 print(f.readline())
 print(f.readlines())
 # close() 关闭文件
+time.sleep(500)
 f.close()
 """
- 文件写入: 1.文件打开 2.文件写入 3.文件刷新
- f = open("xxx.txt","w",encoding="utf-8")
- f.write("文件写入的内容") 文件写入
- f.flush() 内容刷新
- 注:文件写入2个特点： 1.当文件不存在时会创建该文件 2.当文件存在时创建该文件会清空前一个文件内容
+        文件写入: 1.文件打开 2.文件写入 3.文件刷新
+        f = open("xxx.txt","w",encoding="utf-8")
+        f.write("文件写入的内容") 文件写入
+        f.flush() 内容刷新
+        注:文件写入2个特点： 1.当文件不存在时会创建该文件 2.当文件存在时创建该文件会清空前一个文件内容
 """
 
 f = open("D:/python测试.txt","w",encoding = 'utf-8')

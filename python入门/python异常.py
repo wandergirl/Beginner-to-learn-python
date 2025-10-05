@@ -64,3 +64,28 @@ else:
     print("没有异常")
 finally: # 无论是否出现异常 finally里面的代码块都会执行
     print(f.read())
+
+
+"""
+        异常的传递性:当函数func01中发生异常时，并且没有捕获处理这个异常的时候，
+        异常会传递到函数func02,当异常func02也没有捕获到这个异常时mian函数会捕获这个异常
+        注:简单来说异常传递性就是这个函数没有找到这个BUG，那么当另一个函数调用这个函数时这个BUG会带着这个函数一起调用
+"""
+# 定义一个出现异常的方法
+def func1():
+    print("func1 开始执行")
+    num = 1/0
+    print("func2 结束执行")
+# 定义一个无异常的方法，调用func1方法
+def func2():
+    print("func1 开始执行")
+    func1()
+    print("func2 结束执行")
+# 定义一个方法调用上面的方法
+def main():
+    func2() #单独执行这句话会出现很多异常
+    try:        # 把上面的func2()注释后再执行try模块会正常运行
+        func2()
+    except Exception as e:
+        print(e)
+main()

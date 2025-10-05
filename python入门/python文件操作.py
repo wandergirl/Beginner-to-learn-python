@@ -1,11 +1,11 @@
 
 """
- 文件的读取
- 在python中，使用open函数可以打开一个已经存在的文件，或者创建一个新文件 语法为：
- open(name,mode,encoding)
- name: 是要打开的目标文件名的字符串（可以包含文件所在的具体路径)。
- mode: 设置打开文件的模式(访问模式)：只读、写入、追加等
- encoding: 编码格式（推荐使用UTF-8）
+        文件的读取
+        在python中，使用open函数可以打开一个已经存在的文件，或者创建一个新文件 语法为：
+        open(name,mode,encoding)
+        name: 是要打开的目标文件名的字符串（可以包含文件所在的具体路径)。
+        mode: 设置打开文件的模式(访问模式)：只读、写入、追加等
+        encoding: 编码格式（推荐使用UTF-8）
 """
 
 f = open("C:/Users/AL1S8/Desktop/python文档.txt",'r',encoding= 'utf-8')
@@ -43,7 +43,7 @@ f2.close()
   写入文件 write("xxxxx")
   内容刷新 flush()
   close() 关闭文件     
-  注：1.文件的追加不会创建文件 2.文件的追加会在存在的文件后面写入文件
+  注：1.文件的追加会创建文件 2.文件的追加会在存在的文件后面写入内容
 """
 # 打开一个存在的文件
 f = open("D:/python测试.txt","a",encoding = 'utf-8')
@@ -54,6 +54,8 @@ f = open("D:/python测试.txt","r",encoding = "utf- 8")
 print(f.read())
 f.close()
 # 打开一个不存在的文件
-f = open("D:/python.txt",a,encoding = "utf-8") # 报出bug NameError: name 'a' is not defined
-
-
+f3 = open("D:/python1.txt","a",encoding = "utf-8") # 报会创建文件
+f3.write("早濑优香天下第一\n")
+f3.close()
+f4 = open("D:/python.txt","r",encoding = "utf-8")
+print(f4.read())

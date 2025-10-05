@@ -13,4 +13,3 @@ fr.close() #关闭文件fr
 fw.close() # 关闭文件fw
 fr1 = open("D:/bill_bak.txt","r",encoding = 'utf-8') #打开文件fr1
 print(fr1.read()) #将fr1读取到的内容输出出来
-print("111")

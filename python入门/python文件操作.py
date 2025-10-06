@@ -15,7 +15,6 @@ print(type(f))
 print(f.readline())
 print(f.readlines())
 # close() 关闭文件
-time.sleep(500)
 f.close()
 """
         文件写入: 1.文件打开 2.文件写入 3.文件刷新
@@ -60,3 +59,4 @@ f3.write("早濑优香天下第一\n")
 f3.close()
 f4 = open("D:/python.txt","r",encoding = "utf-8")
 print(f4.read())
+

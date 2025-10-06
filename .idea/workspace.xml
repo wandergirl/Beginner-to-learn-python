@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8125532f-d45a-4328-b8c2-be268de2f69b" name="Changes" comment="">
+    <list default="true" id="8125532f-d45a-4328-b8c2-be268de2f69b" name="Changes" comment="pyecharts绘制简单的地图和折现图">
+      <change afterPath="$PROJECT_DIR$/python入门/python操作mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python入门/封装继承与多态.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python入门/python文件操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/python入门/python文件操作.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python入门/文件写入的综合案例.py" beforeDir="false" afterPath="$PROJECT_DIR$/python入门/文件写入的综合案例.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python入门/面向对象.py" beforeDir="false" afterPath="$PROJECT_DIR$/python入门/面向对象.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <excluded-from-favorite>
@@ -23,6 +30,7 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="master" />
+                <branch-info repo="$PROJECT_DIR$" source="main" />
               </list>
             </value>
           </entry>
@@ -36,21 +44,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "wandergirl"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wandergirl&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/wandergirl/python-.git",
-    "accountId": "f192e89b-e2fe-4d96-8ba7-40ed8a2cbb55"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wandergirl/python-.git&quot;,
+    &quot;accountId&quot;: &quot;f192e89b-e2fe-4d96-8ba7-40ed8a2cbb55&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="33e18fXEyfMkdRGcUEJKksJ5Af9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,11 +68,18 @@
   "keyToString": {
     "JavaScript Debug.render.html.executor": "Run",
     "Python.pyecharts入门.executor": "Run",
+    "Python.python操作mysql.executor": "Run",
     "Python.python文件操作.executor": "Run",
+    "Python.全国疫情地图构建.executor": "Run",
+    "Python.地图可视化的基本使用.executor": "Run",
+    "Python.封装继承与多态.executor": "Run",
+    "Python.河南省疫地图构建.executor": "Run",
+    "Python.美印日疫情折线图.executor": "Run",
     "Python.面向对象.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/project/PythonData/python入门/python可视化图表案例",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -73,11 +88,39 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.面向对象">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\PythonData\python入门\python可视化图表案例" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.python操作mysql">
     <configuration name="render.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PythonData/python入门/python可视化图表案例/render.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="面向对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="河南省疫地图构建" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python入门/python可视化图表案例" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python入门/python可视化图表案例/河南省疫地图构建.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="封装继承与多态" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonData" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +134,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python入门/面向对象.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python入门/封装继承与多态.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,10 +166,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python操作mysql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python入门" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python入门/python操作mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.面向对象" />
+        <item itemvalue="Python.python操作mysql" />
+        <item itemvalue="Python.封装继承与多态" />
         <item itemvalue="Python.python文件操作" />
+        <item itemvalue="Python.河南省疫地图构建" />
         <item itemvalue="JavaScript Debug.render.html" />
       </list>
     </recent_temporary>
@@ -146,8 +214,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759662566958</updated>
-      <workItem from="1759662569338" duration="9510000" />
+      <workItem from="1759662569338" duration="9967000" />
+      <workItem from="1759723219657" duration="32213000" />
     </task>
+    <task id="LOCAL-00001" summary="面向对象魔术方法及小改动">
+      <option name="closed" value="true" />
+      <created>1759677698752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759677698752</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pyecharts绘制简单的地图和折现图">
+      <option name="closed" value="true" />
+      <created>1759739539610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759739539610</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,9 +250,15 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="面向对象魔术方法及小改动" />
+    <MESSAGE value="pyecharts绘制简单的地图和折现图" />
+    <option name="LAST_COMMIT_MESSAGE" value="pyecharts绘制简单的地图和折现图" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonData$python.coverage" NAME="python文件操作 Coverage Results" MODIFIED="1759674821012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
+    <SUITE FILE_PATH="coverage/PythonData$pythonmysql.coverage" NAME="python操作mysql Coverage Results" MODIFIED="1759758277326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
+    <SUITE FILE_PATH="coverage/PythonData$python.coverage" NAME="python文件操作 Coverage Results" MODIFIED="1759744695098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
     <SUITE FILE_PATH="coverage/PythonData$pyecharts.coverage" NAME="pyecharts入门 Coverage Results" MODIFIED="1759665586723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门/python可视化图表案例" />
-    <SUITE FILE_PATH="coverage/PythonData$.coverage" NAME="面向对象 Coverage Results" MODIFIED="1759677392875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
+    <SUITE FILE_PATH="coverage/PythonData$.coverage" NAME="封装继承与多态 Coverage Results" MODIFIED="1759753947549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
   </component>
 </project>

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8125532f-d45a-4328-b8c2-be268de2f69b" name="Changes" comment="pyecharts绘制简单的地图和折现图">
-      <change afterPath="$PROJECT_DIR$/python入门/python操作mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python入门/封装继承与多态.py" afterDir="false" />
+    <list default="true" id="8125532f-d45a-4328-b8c2-be268de2f69b" name="Changes" comment="封装继承与多态 python操作mysql pyspark开头">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python入门/python文件操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/python入门/python文件操作.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python入门/pyspark入门.py" beforeDir="false" afterPath="$PROJECT_DIR$/python入门/pyspark入门.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python入门/python操作mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/python入门/python操作mysql.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,7 @@
   "keyToString": {
     "JavaScript Debug.render.html.executor": "Run",
     "Python.pyecharts入门.executor": "Run",
+    "Python.pyspark入门.executor": "Run",
     "Python.python操作mysql.executor": "Run",
     "Python.python文件操作.executor": "Run",
     "Python.全国疫情地图构建.executor": "Run",
@@ -77,6 +77,7 @@
     "Python.美印日疫情折线图.executor": "Run",
     "Python.面向对象.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/project/PythonData/python入门/python可视化图表案例",
@@ -86,6 +87,11 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -93,7 +99,7 @@
       <recent name="D:\project\PythonData\python入门\python可视化图表案例" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.python操作mysql">
+  <component name="RunManager" selected="Python.pyspark入门">
     <configuration name="render.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PythonData/python入门/python可视化图表案例/render.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -135,6 +141,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python入门/封装继承与多态.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyspark入门" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python入门" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python入门/pyspark入门.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,8 +220,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pyspark入门" />
         <item itemvalue="Python.python操作mysql" />
-        <item itemvalue="Python.封装继承与多态" />
         <item itemvalue="Python.python文件操作" />
         <item itemvalue="Python.河南省疫地图构建" />
         <item itemvalue="JavaScript Debug.render.html" />
@@ -215,7 +244,8 @@
       <option name="presentableId" value="Default" />
       <updated>1759662566958</updated>
       <workItem from="1759662569338" duration="9967000" />
-      <workItem from="1759723219657" duration="32213000" />
+      <workItem from="1759723219657" duration="33080000" />
+      <workItem from="1759797999739" duration="6559000" />
     </task>
     <task id="LOCAL-00001" summary="面向对象魔术方法及小改动">
       <option name="closed" value="true" />
@@ -233,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759739539610</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="封装继承与多态 python操作mysql pyspark开头">
+      <option name="closed" value="true" />
+      <created>1759759689677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759759689677</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,12 +291,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="面向对象魔术方法及小改动" />
     <MESSAGE value="pyecharts绘制简单的地图和折现图" />
-    <option name="LAST_COMMIT_MESSAGE" value="pyecharts绘制简单的地图和折现图" />
+    <MESSAGE value="封装继承与多态 python操作mysql pyspark开头" />
+    <option name="LAST_COMMIT_MESSAGE" value="封装继承与多态 python操作mysql pyspark开头" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonData$pythonmysql.coverage" NAME="python操作mysql Coverage Results" MODIFIED="1759758277326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
+    <SUITE FILE_PATH="coverage/PythonData$pythonmysql.coverage" NAME="python操作mysql Coverage Results" MODIFIED="1759803341320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
     <SUITE FILE_PATH="coverage/PythonData$python.coverage" NAME="python文件操作 Coverage Results" MODIFIED="1759744695098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
     <SUITE FILE_PATH="coverage/PythonData$pyecharts.coverage" NAME="pyecharts入门 Coverage Results" MODIFIED="1759665586723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门/python可视化图表案例" />
+    <SUITE FILE_PATH="coverage/PythonData$pyspark.coverage" NAME="pyspark入门 Coverage Results" MODIFIED="1759805275955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
     <SUITE FILE_PATH="coverage/PythonData$.coverage" NAME="封装继承与多态 Coverage Results" MODIFIED="1759753947549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
   </component>
 </project>

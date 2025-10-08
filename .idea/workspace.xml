@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8125532f-d45a-4328-b8c2-be268de2f69b" name="Changes" comment="封装继承与多态 python操作mysql pyspark开头">
-      <change afterPath="$PROJECT_DIR$/python爬虫/YUUKA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫/urlib库的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫/urlil_get请求方式的quote方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫/urllib下载.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫/urllib请求对象的定制.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大数据hoodoop练习.txt" afterDir="false" />
+    <list default="true" id="8125532f-d45a-4328-b8c2-be268de2f69b" name="Changes" comment="python大数据hadoop的服务器环境搭建和urllib的request模块rumen">
+      <change afterPath="$PROJECT_DIR$/python入门/python多线程入门/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python入门/python多线程入门/python多线程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python入门/python文件操作和异常/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python入门/python异常.py" beforeDir="false" afterPath="$PROJECT_DIR$/python入门/python文件操作和异常/python异常.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python入门/python操作mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/python入门/python文件操作和异常/python操作mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python入门/python文件操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/python入门/python文件操作和异常/python文件操作.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python入门/封装继承与多态.py" beforeDir="false" afterPath="$PROJECT_DIR$/python入门/python文件操作和异常/封装继承与多态.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python入门/文件写入的综合案例.py" beforeDir="false" afterPath="$PROJECT_DIR$/python入门/python文件操作和异常/文件写入的综合案例.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,8 @@
     "JavaScript Debug.render.html.executor": "Run",
     "Python.pyecharts入门.executor": "Run",
     "Python.pyspark入门.executor": "Run",
+    "Python.python多线程 (1).executor": "Run",
+    "Python.python多线程.executor": "Run",
     "Python.python操作mysql.executor": "Run",
     "Python.python文件操作.executor": "Run",
     "Python.urlib库的使用.executor": "Run",
@@ -110,15 +113,14 @@
       <recent name="D:\project\PythonData\python入门\python可视化图表案例" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\PythonData\python入门\python文件操作和异常" />
+      <recent name="D:\project\PythonData\python入门\python多线程" />
       <recent name="D:\project\PythonData" />
       <recent name="D:\project\PythonData\python入门" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.urlil_get请求方式的quote方法">
-    <configuration name="baidu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PythonData/python爬虫/baidu.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="google.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PythonData/python爬虫/google.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="Python.python多线程 (1)">
+    <configuration name="render.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PythonData/python入门/python可视化图表案例/render.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="封装继承与多态" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -136,6 +138,75 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python入门/封装继承与多态.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyspark入门" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python入门" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python入门/pyspark入门.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python多线程 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python入门/python多线程入门" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python入门/python多线程入门/python多线程.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python多线程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python入门" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\project\PythonData\python入门\python多线程\python多线程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,59 +238,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="urllib下载" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonData" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫/urllib下载.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="urllib请求对象的定制" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonData" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫/urllib请求对象的定制.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python多线程 (1)" />
+        <item itemvalue="JavaScript Debug.render.html" />
+        <item itemvalue="Python.python多线程" />
+        <item itemvalue="Python.pyspark入门" />
         <item itemvalue="Python.urlil_get请求方式的quote方法" />
-        <item itemvalue="Python.urllib下载" />
-        <item itemvalue="Python.urllib请求对象的定制" />
-        <item itemvalue="JavaScript Debug.google.html" />
-        <item itemvalue="JavaScript Debug.baidu.html" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +267,7 @@
       <workItem from="1759723219657" duration="33080000" />
       <workItem from="1759797999739" duration="7397000" />
       <workItem from="1759886852693" duration="236000" />
-      <workItem from="1759917402040" duration="9875000" />
+      <workItem from="1759917402040" duration="14223000" />
     </task>
     <task id="LOCAL-00001" summary="面向对象魔术方法及小改动">
       <option name="closed" value="true" />
@@ -276,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759808439307</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="python大数据hadoop的服务器环境搭建和urllib的request模块rumen">
+      <option name="closed" value="true" />
+      <created>1759928572180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759928572180</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,16 +330,18 @@
     <MESSAGE value="面向对象魔术方法及小改动" />
     <MESSAGE value="pyecharts绘制简单的地图和折现图" />
     <MESSAGE value="封装继承与多态 python操作mysql pyspark开头" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装继承与多态 python操作mysql pyspark开头" />
+    <MESSAGE value="python大数据hadoop的服务器环境搭建和urllib的request模块rumen" />
+    <option name="LAST_COMMIT_MESSAGE" value="python大数据hadoop的服务器环境搭建和urllib的request模块rumen" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonData$urllib.coverage" NAME="urllib下载 Coverage Results" MODIFIED="1759926508832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python爬虫" />
     <SUITE FILE_PATH="coverage/PythonData$pythonmysql.coverage" NAME="python操作mysql Coverage Results" MODIFIED="1759803341320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
     <SUITE FILE_PATH="coverage/PythonData$urlib.coverage" NAME="urlib库的使用 Coverage Results" MODIFIED="1759920919323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python爬虫" />
-    <SUITE FILE_PATH="coverage/PythonData$python.coverage" NAME="python文件操作 Coverage Results" MODIFIED="1759744695098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
+    <SUITE FILE_PATH="coverage/PythonData$python.coverage" NAME="python多线程 Coverage Results" MODIFIED="1759930459229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
     <SUITE FILE_PATH="coverage/PythonData$urlil_getquote.coverage" NAME="urlil_get请求方式的quote方法 Coverage Results" MODIFIED="1759927800740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python爬虫" />
     <SUITE FILE_PATH="coverage/PythonData$pyecharts.coverage" NAME="pyecharts入门 Coverage Results" MODIFIED="1759665586723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门/python可视化图表案例" />
-    <SUITE FILE_PATH="coverage/PythonData$pyspark.coverage" NAME="pyspark入门 Coverage Results" MODIFIED="1759805275955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
+    <SUITE FILE_PATH="coverage/PythonData$pyspark.coverage" NAME="pyspark入门 Coverage Results" MODIFIED="1759929783553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
     <SUITE FILE_PATH="coverage/PythonData$.coverage" NAME="封装继承与多态 Coverage Results" MODIFIED="1759753947549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门" />
+    <SUITE FILE_PATH="coverage/PythonData$python__1_.coverage" NAME="python多线程 (1) Coverage Results" MODIFIED="1759932488023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python入门/python多线程入门" />
   </component>
 </project>

@@ -1,0 +1,94 @@
+		"""  配置固定IP地址"""
+
+# 修改主机名
+hostnamectl set-hostname node1 # 使用这个命令后如果主机名称没有改变则可以关闭终端重新打开即可
+
+# 修改IP地址
+vim /etc/sysconfig/network-scripts/ifcfg-ens33
+IPADDR="192.168.88.131"       #修改的ip最好和VMware中设置的网关在同一网段下 如我这个ip的虚拟网关是192.168.            .2
+# 重启网卡
+systemctl stop network
+systemctl start network
+# 或者直接
+systemctl restart network 
+
+             """配置hosts映射与ssh免密登录 """
+vim /etc/hosts # 此命令为编辑linux中的各个主机的映射的主机的ip地址和主机名 ,在hosts文件下添加如下内容 
+		#	如:
+        #        192.168.88.100 node1
+		#	    192.168.88.101 node2 
+        #            ........
+ssh-keygen -t rsa -b 4096 # 此命令是生成ssh免密登录的密钥
+ssh-copy-id 主机名 # 此命令是将映射中的主机名相互链接,最好是在每一个都相互映射的主机都执行该命令
+
+
+			"""配置java环境变量"""
+mkdir -p /export/server #创建java安装的路径
+
+#使用Xftp等第三方工具将java的压缩包下载到本地 
+tar -zxvf /java压缩包下载的路径 -C /export/server   #将下载的Java的压缩包解压到指定该目录下
+
+vim /etc/profile #编辑环境变量 并添加一下内容:
+		JAVA_HOME=/export/server/Java压缩包解压后的目录名
+		PATH=$PATH:$JAVA_HOME/bin     
+scource /etc/profile #使java的环境变量生效
+
+rm -f /usr/bin/java  #删除usr/bin/java的环境变量 
+ln -s /export/server/Java压缩包解压后的目录名 /usr/bin/java  #将配置的环境变量的java 链接到 /usr/bin/目录中
+
+java -version #查看java版本
+javac -version #查看javac版本
+
+
+                                 """""关闭防火墙和SELinux"""
+
+
+systemctl stop firewalld
+systemctl disable firewalld 
+
+#Linux 有一个安全模块SELinux用以限制用户和程序的权限，来确保程序的安全稳定
+
+vim /etc/sysconfig/selinux  #编辑内容 第七行改为 
+						SELINUX=disable
+
+
+
+			                 ”“”“修改时区并配置自动时间同步"""
+
+                                  /*
+
+                                        1.安装ntp软件
+                                                yum install ntp
+                                        2.更新时区
+                                        rm -f /etc/localtime;sudo ln-s /usr/share/zoneinfo/Asia/Shanghai /etc/local/time
+                                        3.同步时间
+                                        ntpdate -u ntp.aliyun.com
+                                        4.开启ntp服务并设置开机自启
+                                        systemctl start ntpd
+                                        systemctl enable ntpd
+
+                                  */
+
+
+			"""""""""""""""Hadoop HDFS部署""""""""""""""
+    	       hadoop角色扮演:  NameNode,主节点管理者
+				DataNode,从节点工作者
+				SecondaryNameNode,主节点辅助
+                            
+                         /*
+				1.使用wegt命令下载hadoop安装包 
+				wegt -P /export/server/   https://dlcdn.apache.org/hadoop/common/hadoop-3.4.2/hadoop-3.4.2.tar.gz  #使用wget命令将hadoop的安装包下载到/export/server/中 -P 是指定下载的目录、
+				2.解压缩安装包到/export/server/中
+				tar -zxvf /export/server/hadoop的压缩包名 -C /export/server/
+				3.构建软链接
+				cd /export/server
+				ln -s /export/server/解压好的hadoop包名
+				4.进入到hadoop安装包内
+				cd hadoop
+			*/
+
+
+
+
+      				
+

@@ -5,7 +5,7 @@ hostnamectl set-hostname node1 # 使用这个命令后如果主机名称没有�
 
 # 修改IP地址
 vim /etc/sysconfig/network-scripts/ifcfg-ens33
-IPADDR="192.168.88.131"       #修改的ip最好和VMware中设置的网关在同一网段下 如我这个ip的虚拟网关是192.168.            .2
+IPADDR="192.168.88.131"       #修改的ip最好和VMware中设置的网关在同一网段下 如我这个ip的虚拟网关是192.168.88.2 
 # 重启网卡
 systemctl stop network
 systemctl start network
@@ -15,9 +15,9 @@ systemctl restart network
              """配置hosts映射与ssh免密登录 """
 vim /etc/hosts # 此命令为编辑linux中的各个主机的映射的主机的ip地址和主机名 ,在hosts文件下添加如下内容 
 		#	如:
-        #        192.168.88.100 node1
+                #           192.168.88.100 node1 
 		#	    192.168.88.101 node2 
-        #            ........
+                #            ........
 ssh-keygen -t rsa -b 4096 # 此命令是生成ssh免密登录的密钥
 ssh-copy-id 主机名 # 此命令是将映射中的主机名相互链接,最好是在每一个都相互映射的主机都执行该命令
 
@@ -40,7 +40,7 @@ java -version #查看java版本
 javac -version #查看javac版本
 
 
-                                 """""关闭防火墙和SELinux"""
+                                 """关闭防火墙和SELinux"""
 
 
 systemctl stop firewalld
@@ -84,7 +84,34 @@ vim /etc/sysconfig/selinux  #编辑内容 第七行改为
 				cd /export/server
 				ln -s /export/server/解压好的hadoop包名
 				4.进入到hadoop安装包内
-				cd hadoop
+				cd hadoop:  
+                                          bin:存放Hadoop的各类程序(命令)
+					  sbin:管理员程序(supr bin)  
+					  etc:存放Hadoop的配置文件
+				配置HDFS集群，主要涉及到如下文件的修改:
+				               workers: 配置从节点
+							cd etc/hadoop 
+							vim workers
+							    node1 
+							    node2
+							    node3
+					       hadoop-env.sh 配置Hadoop的相关环境
+							 export JAVA_HOME=/export/server/java
+							 export HADOOP_HOME=/ecport/server/hadoop
+							 export HADOOP_CONF_DIR=$HADOOP/etc/hadoop
+							 export HADOOP_LOG_DIR=$HADOOP_HOME/logs
+					       core-site.xml: Hapoop的核心文件
+							   <property>
+							      <name>fs.defaultFS</name>
+							      <value>hdfs://node1:8020</value>
+							   </property> 
+							    <property>
+                                                              <name>io.file.buffer.size</name>
+                                                              <value>131072</value>
+                                                           </property>
+
+					       hdfs-site.xml:HDFS核心配置文件
+			       				
 			*/
 
 
